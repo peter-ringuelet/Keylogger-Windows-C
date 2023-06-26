@@ -30,7 +30,8 @@ Si decides utilizar este keylogger, asegúrate de tener el permiso del usuario c
 ## Compilación
 
 Para compilar el código fuente `keylogger3.c`, necesitarás un compilador C para Windows como GCC. Luego puedes usar el siguiente comando para compilar:
+```bash
 gcc keylogger3.c -o Keylogger.exe -mwindows
-
+```
 
 Este comando crea un archivo ejecutable `Keylogger.exe` a partir del código fuente que se ejecuta en segundo plano sin abrir el símbolo del sistema o cualquier otra ventana.
